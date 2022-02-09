@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJJsEPCAeoUJzHkXI61n91E89V+4F1DIvtF+JLUc5g2T11ZkCBpDETW6CU//H22Cs+azqj0fGdT8dIe4dGTZkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\AT02_RafaelOlivato_UC04\\AT02_RafaelOlivato_UC04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\mysqlconnector\\2.1.5\\mysqlconnector.2.1.5.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
