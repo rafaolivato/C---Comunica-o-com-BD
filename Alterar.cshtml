@@ -1,0 +1,35 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Alteração";
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<p class = "text-danger">@ViewData["mensagem"]</p>
+<form method="post" asp-action="Alterar">
+    <p>
+        <label asp-for="Nome">Nome:</label>
+        <input asp-for="Nome">
+    </p>
+    <p>
+        <label asp-for="Login">Login:</label>
+        <input asp-for="Login">
+    </p>
+    <p>
+        <label asp-for="Senha">Senha:</label>
+        <input asp-for="Senha">
+    </p>
+    <p>
+        <label asp-for="DataNascimento">Data de Nascimento:</label>
+        <input asp-for="DataNascimento" type="date">
+    </p>
+
+    <input asp-for ="Id" type="hidden">
+    <input type="submit" values= "Alterar">
+
+    
+    </p>
+
+
+
+</form>
